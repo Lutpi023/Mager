@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>POLITEKNIK NEGERI BALIKPAPAN</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"> <!--File CSS Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="style.css"> <!--File CSS-->
+	<link rel="stylesheet" type="text/css" href="yamm/yamm.css"> <!--File YAMM untuk membuat navbar ukuran penuh -->
+	<script src="https://kit.fontawesome.com/dbba9ced20.js" crossorigin="anonymous"></script> <!--Connect Script Font Awesome-->
+	<link rel="icon" type="img/png" href="img/logoelektro.png">
+</head>
+<body>
+	<!-- Untuk membuat navbar -->
+	<nav class="yamm navbar navbar-expand-lg navbar-custom navbar-light py-0">
+		<!-- Untuk membuat tombol yang muncul ketika di layar kecil (responsif) -->
+		<div class="tombol">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		<!-- Menu yang ada di Navbar -->
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<div class="kotak-hover">
+					<li class="nav-item mr-5 ml-5">
+						<a href="index.html" class="nav-link">BERANDA</a>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item dropdown mr-5 ml-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFIL JURUSAN</a>
+						<div class="dropdown-menu about" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="TentangElektro.html">Tentang Jurusan Elektro</a>
+					        <a class="dropdown-item" href="VisiMisi.html">Visi Misi</a>
+					        <a class="dropdown-item" href="Struktur.html">Struktur Organisasi</a>
+					        <a class="dropdown-item" href="Fasilitas.html">Fasilitas</a>
+					        <a class="dropdown-item" href="DaftarDosen.html">Dosen Elektro</a>
+						</div>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item dropdown yamm-fw mr-5 ml-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BERITA</a>
+						<div class="dropdown-menu">
+							<div class="yamm-content pl-0">
+								<div class="row">
+									<div class="col-md-4" style="margin-right: 50px">
+										<a href="#" class="dropdown-item judul-dropdown"><span>BERI</span>TA TERBARU</a>
+										<a href="#" class="dropdown-item link-dropdown">PENYALURAN BANTUAN PEMERINTAH TANGGAP BENCANA<p style="color: white;">BIDANG PENDIDIKAN VOKASI TAHUN 2020 OLEH P3M POLTEKBA</p></a>
+										<a href="#" class="dropdown-item link-dropdown">EXPO TEKNIK ELEKTRONIKA TAHUN 2020</a>
+										<a href="#" class="dropdown-item link-dropdown">REKRUTMEN PEKERJA WAKTU TIDAK TERTENTU (PWTT)<p style="color: white;">PT KILANG PERTAMINA BALIKPAPAN</p></a>
+										<a href="#" class="dropdown-item link-dropdown">POLTEKBA VIRTUAL JOB FAIR 2020</a>
+										<a href="#" class="dropdown-item link-dropdown">PELAKSANAAN SNITT KE-3 POLTEKBA TAHUN 2020 SUKSES<p style="color: white;">DIGELAR SECARA DARING</p></a>
+									</div>
+									<div class="col-md-5">
+										<a href="#" class="dropdown-item judul-dropdown"><span>AGEN</span>DA</a>
+										<a href="#" class="dropdown-item agenda disabled"><p>No Agenda</p></a>
+									</div>
+									<div class="col-md-3" style="margin-left: -50px">
+										<a href="#" class="dropdown-item judul-dropdown"><span>GALE</span>RI FOTO</a>
+										<div class="zoom-effect">
+											<div class="galeri">
+												<a href="#" class="dropdown-item"><img src="img/gambar2.jpg"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item dropdown yamm-fw mr-5 ml-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AKADEMIK</a>
+						<div class="dropdown-menu">
+							<div class="yamm-content pl-0">
+								<div class="row">
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>JURUSAN</span> POLTEKBA</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Elektro</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Sipil</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Mesin</a>
+										<a href="#" class="dropdown-item link-dropdown">Perhotelan</a>
+										<a href="#" class="dropdown-item link-dropdown">Akutansi</a>
+									</div>
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>DIPL</span>OMA III</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Elektronika</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknikologi Listrik</a>
+										<a href="#" class="dropdown-item link-dropdown">Alat Berat</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Sipil</a>
+										<a href="#" class="dropdown-item link-dropdown">Tataboga</a>
+										<a href="#" class="dropdown-item link-dropdown">Divisi Kamar</a>
+										<a href="#" class="dropdown-item link-dropdown">Perbankan & Keuangan</a>
+									</div>
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>DIPL</span>OMA IV</a>
+										<a href="#" class="dropdown-item link-dropdown"><p style="color: white;">Teknologi Rekayasa</p><p style="color: white;">Konstruksi Jalan &</p><p style="color: white;">Jembatan</p></a>
+										<a href="#" class="dropdown-item link-dropdown">Akutansi Perpajakan</a>
+										<a href="#" class="dropdown-item link-dropdown">Akutansi Manajerial</a>
+									</div>
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>KELAS</span> KERJASAMA MSU</a>
+										<a href="#" class="dropdown-item link-dropdown">Alat Berat (Mechanical<p style="color: white;">Engineering)</p></a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Elektronika (Electrical<p style="color: white;">& Electronics Engineering)</p></a>
+									</div>
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>JALU</span>R PENERIMAAN</a>
+										<a href="#" class="dropdown-item link-dropdown">SNMPN</a>
+										<a href="#" class="dropdown-item link-dropdown">SBMPN</a>
+										<a href="#" class="dropdown-item link-dropdown">UMM</a>
+									</div>
+									<div class="col-md-2" style="margin-left: -20px">
+										<a href="#" class="dropdown-item judul-dropdown"><span>INFO</span>RMASI PENDAFTARAN</a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Politeknik Negeri Balikpapan</a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Jl. Soekarno Hatta KM.8<p style="color: white;">Balikpapan Utara</p></a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Kalimantan Timur 76129,<p style="color: white;">INDONESIA</p></a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Telp: (0542)860895 | Fax: 861107</a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Email: admin@poltekba.ac.id</a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Website: http://poltekba.ac.id</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item dropdown mr-5 ml-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DOWNLOAD</a>
+						<div class="dropdown-menu about" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="Kaldik.html">Kalender Akademik</a>
+							<a class="dropdown-item" href="dokumen.html">Dokumen</a>
+						</div>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item dropdown yamm-fw mr-5 ml-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">KONTAK</a>
+						<div class="dropdown-menu">
+							<div class="yamm-content">
+								<div class="row">
+										<div class="col-md-4">
+											<a href="#" class="dropdown-item judul-dropdown"><span>CARI</span> SESUATU</a>
+											<div class="input-group" style="margin-left: 23px; margin-top: 8px">
+										    <input type="text" class="form-control" placeholder="Search...">
+										    <div class="input-group-append">
+										      <button class="btn btn-secondary" type="button">
+										      	Search
+										      </button>
+										    </div>
+										  </div>
+										</div>
+										<div class="col-md-2">
+											<a href="#" class="dropdown-item judul-dropdown"><span>PILIH</span> BAHASA</a>
+											<a href="#" class="dropdown-item link-dropdown"><img src="img/icon/en.png" style="margin-right: 10px">English</a>
+											<a href="#" class="dropdown-item link-dropdown"><img src="img/icon/id.png" style="margin-right: 10px">Indonesian</a>
+										</div>
+										<div class="col-md-2">
+											<a href="#" class="dropdown-item judul-dropdown"><span>TEMU</span>KAN KAMI</a>
+											<a href="#" class="dropdown-item link-dropdown">FACEBOOK</a>
+											<a href="#" class="dropdown-item link-dropdown">TWITTER</a>
+											<a href="#" class="dropdown-item link-dropdown">YOUTUBE</a>
+											<a href="#" class="dropdown-item link-dropdown">INSTAGRAM</a>
+											<div class="dropdown-divider" style="margin-left: 24px"></div>
+											<a href="http://blp.poltekba.ac.id/" class="dropdown-item link-dropdown">LAMAN LAMA</a>
+										</div>
+										<div class="col-md-3">
+											<a href="#" class="dropdown-item judul-dropdown"><span>KON</span>TAK</a>
+											<a href="#" class="dropdown-item link-dropdown disabled"><img src="img/icon/icon1map.png"> Jl. Soekarno Hatta KM.8 Balikpapan Utara</a>
+											<a href="#" class="dropdown-item link-dropdown disabled">Kalimantan Timur 76129, INDONESIA</a>
+											<a href="#" class="dropdown-item link-dropdown disabled"><img src="img/icon/icon2mail.png"> admin@poltekba.ac.id</a>
+											<a href="#" class="dropdown-item link-dropdown disabled"><img src="img/icon/icon4phone.png"> (0542)860895 | <img src="img/icon/icon5fax.png"> 861107</a>
+											<a href="#" class="dropdown-item link-dropdown disabled"><img src="img/icon/icon3wa.png"> +62 8135 0242 704</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</div>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- ISI -->
+<!-- Slide View -->
+	<div id="carouselTesti" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselTesti" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselTesti" data-slide-to="1"></li>
+			<li data-target="#carouselTesti" data-slide-to="2"></li>
+			<li data-target="#carouselTesti" data-slide-to="3"></li>
+		</ol>
+			<div class="carousel-inner">
+			<div class="carousel-item active" id="carousel-item">
+				<img class="d-block w-100" src="img/slideview/gambar1.jpg" alt="First slide">
+				<div class="carousel-caption" id="carousel-caption">
+					<h5 style="color: black; background-color:white; font-size: 45px;width:fit-content;font-family: 'Poppins';">Selamat Datang</h5>
+					<p style="color:white; background-color:grey; font-size: 25px;width: fit-content;">Di website resmi jurusan Elektro POLTEKBA</p>
+				</div>
+			</div>
+			<div class="carousel-item" id="carousel-item">
+				<img class="d-block w-100" src="img/slideview/gambar2.jpg" alt="Second slide">
+				<div class="carousel-caption" id="carousel-caption">
+					<h5 style="color: black; background-color:white; font-size: 45px;width:fit-content;font-family: 'Poppins';">Selamat Datang</h5>
+					<p style="color:white; background-color:grey; font-size: 25px;width: fit-content;">Di website resmi jurusan Elektro POLTEKBA</p>
+				</div>
+			</div>
+			<div class="carousel-item" id="carousel-item">
+				<img class="d-block w-100" src="img/slideview/gambar3.jpg" alt="Third slide">
+				<div class="carousel-caption" id="carousel-caption">
+					<h5 style="color: black; background-color:white; font-size: 45px;width:fit-content;font-family: 'Poppins';">Selamat Datang</h5>
+					<p style="color:white; background-color:grey; font-size: 25px;width: fit-content;">Di website resmi jurusan Elektro POLTEKBA</p>
+				</div>
+			</div>
+			<div class="carousel-item" id="carousel-item">
+				<img class="d-block w-100" src="img/slideview/gambar4.jpg" alt="fourth slide">
+				<div class="carousel-caption" id="carousel-caption">
+					<h5 style="color: black; background-color:white; font-size: 45px;width:fit-content;font-family: 'Poppins';">Selamat Datang</h5>
+					<p style="color:white; background-color:grey; font-size: 25px;width: fit-content;">Di website resmi jurusan Elektro POLTEKBA</p>
+				</div>
+			</div>
+			</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+	</div>
+
+<!-- BERITA TERBARU -->
+<section class="section gray-bg" id="blog">
+	<div class="container">
+		<div class="row justify-content-center" style="margin-top: -50px;">
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<h1><strong>BERITA TERBARU</strong></h1>
+					<p>Pantengin terus update berita terbaru kami jangan sampai ketinggalan kabar terbaru dari jurusan tercinta ini ya</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="blog-grid">
+					<div class="blog-img">
+						<div class="date">09 SEPTEMBER 2021</div>
+						<a href="#">
+							<img src="img/news/gambar1.jpg" title="" alt="" style="height: 280px;width: 350px;">
+						</a>
+					</div>
+					<div class="blog-info">
+						<h5><a href="#">POLTEKBA berhasil mendapat Juara III dalam Kickboxing</a></h5>
+						<p>Politeknik Negeri Balikpapan turut berbangga atas capaian prestasi dari Mahasiswa Poltekba atas nama Moammar Yasser Alfarizi S...</p>
+						<div class="btn-bar">
+							<a href="#" class="px-btn-arrow">
+								<span>Selengkapnya</span>
+								<i class="arrow"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="blog-grid">
+					<div class="blog-img">
+						<div class="date">07 SEPTEMBER 2021</div>
+						<a href="#">
+							<img src="img/news/gambar2.jpg" title="" alt="" style="height: 280px;width: 350px;">
+						</a>
+					</div>
+					<div class="blog-info">
+						<h5><a href="#">Penyusunan panduan kompetisi kewirausahaan</a></h5>
+						<p>Pelaksanaan Workshop Penyusunan Panduan Kompetisi Kewirausahaan Mahasiswa Vokasi Poltekba pada...</p>
+						<div class="btn-bar">
+							<a href="#" class="px-btn-arrow">
+								<span>Selengkapnya</span>
+								<i class="arrow"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="blog-grid">
+					<div class="blog-img">
+						<div class="date">04 SEPTERMBER 2021</div>
+						<a href="#">
+							<img src="img/news/gambar3.jpg" title="" alt="" style="height: 280px;width: 350px;">
+						</a>
+					</div>
+					<div class="blog-info">
+						<h5><a href="#">Pelantikan dan pengambilan sumpah</a></h5>
+						<p>Telah dilaksanakan Pelantikan dan Pengambilan Sumpah/Janji Pegawai Pemerintah dengan Perjanjian Kerja (PPPK)...</p>
+						<div class="btn-bar">
+							<a href="#" class="px-btn-arrow">
+								<span>Selengkapnya</span>
+								<i class="arrow"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--Profile-->                     
+<div class="container">
+    <div class="profile card" style="border: none;margin-top: 25px;">
+        <div class="profile-body">
+            <div class="profile-bio">
+                <div class="row">
+                    <div class="col-md-5 text-center">
+                        <img src="img/logoelektro.png" alt="" style="width: 300px;">
+                    </div>
+                    <div class="col-md-7">
+                        <span>JURUSAN</span>
+						<h1 style="color: orange;"><strong>TEKNIK ELEKTRO</strong></h1>
+                        <hr>
+                        <p>
+							Untuk pertama kalinya pada tanggal 2 Agustus 2002 Program D-III program studi Teknik Elektronika (TE) dengan SK Menteri Pendidikan Nasional Republik Indonesia Nomor: 168/D/O/2002 dibuka bersamaan dengan pendirian Politeknik Balikpapan oleh Pemerintah Kota Balikpapan.
+						</p>
+                        <p>
+							Kini Program Studi Teknik Elektronika berganti menjadi Jurusan Elektro dimana di dalamnya terpecah menjadi 2 Program Studi yaitu :
+							<ul style="margin-left: 20px;">
+								<li>Program Studi Teknik Elektronika</li>
+								<li>Program Studi Teknologi Listrik</li>
+							</ul>
+							<div class="btn-bar" style="margin-bottom: -200px;">
+								<a href="TentangElektro.html" class="px-btn-arrow">
+									<span style="margin-left: -400px;">Selengkapnya</span>
+								</a>
+							</div>
+						</p>
+                    </div>
+                </div>    
+            </div>
+    	</div>
+    </div>
+</div>                                                            
+
+<!--Data-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container bootstrap snippets bootdey" style="margin-top:100px;">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="mini-stat clearfix bg-facebook rounded">
+                <span class="mini-stat-icon"><i class="fab fa-get-pocket"></i></span>
+                <div class="mini-stat-info">
+                    <span>03</span>
+                    Bidang Minat
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="mini-stat clearfix bg-twitter rounded">
+                <span class="mini-stat-icon"><i class="fas fa-user-alt"></i></span>
+                <div class="mini-stat-info">
+                    <span>300</span>
+                    Mahasiswa
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="mini-stat clearfix bg-googleplus rounded">
+                <span class="mini-stat-icon"><i class="fas fa-chalkboard-teacher"></i></span>
+                <div class="mini-stat-info">
+                    <span>24</span>
+                    Dosen
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="mini-stat clearfix bg-bitbucket rounded">
+                <span class="mini-stat-icon"><i class="fas fa-graduation-cap"></i></span>
+                <div class="mini-stat-info">
+                    <span>200</span>
+                    Lulusan
+                </div>
+            </div>
+        </div>        
+	</div>
+</div>
+
+<!--Bidang Minat-->
+<section class="bg-light section section-lg-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="minba-title">MINAT & BAKAT</h1>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="text-center shadow card py-3 border-0 rounded-sm">
+                    <div class="card-body"> 
+						<i class="fas fa-code fa-3x icon-lg icon-bg-square mb-5 icon-primary"></i>
+                        <h4 class="mb-3"><strong>INFORMATIKA</strong></h4>
+                        <p>Mempelajari bagaimana menggunakan teknologi komputer secara optimal guna menangani masalah transformasi atau pengolahan data dengan proses logika</p>
+						<a class="btn btn-primary" href="#" role="button">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="text-center shadow card py-3 border-0 rounded-sm">
+                    <div class="card-body"> 
+						<i class="fas fa-wifi fa-3x icon-lg icon-bg-square mb-5 icon-primary"></i>
+                        <h4 class="mb-3"><strong>TELEKOMUNIKASI</strong></h4>
+                        <p>Mempelajari segala aspek tetang cara berkomunikasi secara jauh baik dengan kabel ataupun nirkabel mulai dari sinyal, transmisi data, radio, radar, dsb</p>
+						<a class="btn btn-primary" href="#" role="button">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div class="text-center shadow card py-3 border-0 rounded-sm">
+                    <div class="card-body"> 
+						<i class="fas fa-cogs fa-3x icon-lg icon-bg-square mb-5 icon-primary"></i>
+                        <h4 class="mb-3"><strong>ELEKTRONIKA INDUSTRI</strong></h4>
+                        <p>Mempelajari segala aspek tentang kelistrikan (arus lemah) pada bidang sistem kontrol dan maintenance peralatan industri berbasis “electrical control” dan “micro processor”.</p>
+						<a class="btn btn-primary" href="#" role="button">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Feature-->
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="box">
+                <div class="our-services settings">
+                    <div class="icon"> <img src="img/iconFeature/alumni.png" width="90px"> </div>
+                    <h4>Alumni</h4>
+                    <p>Temukan Alumni Elektro Poltekba Disini</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <div class="our-services speedup">
+                    <div class="icon"> <img src="img/iconFeature/Info Lomba.png" width="90px"> </div>
+                    <h4>Info Lomba</h4>
+                    <p>Bingung tentang info lomba? Jangan khawatir, Cek selengkapnya disini</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <div class="our-services privacy">
+                    <div class="icon"> <img src="img/iconFeature/Beasiswa.png" width="90px"> </div>
+                    <h4>Beasiswa</h4>
+                    <p>Lagi nyari beasiswa?  Yuk Cari info beasiswa sekarang.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="box">
+                <div class="our-services backups">
+                    <div class="icon"> <img src="img/iconFeature/Prestasi.png" width="90px"> </div>
+                    <h4>Prestasi</h4>
+                    <p>Penasaran prestasi anak anak POLTEKBA ? yuk simak lebih lengkapnya.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <div class="our-services ssl">
+                    <div class="icon"> <img src="img/iconFeature/Partnership.png" width="90px"> </div>
+                    <h4>Partnership</h4>
+                    <p>Temukan beragam info partnership elektro poltekba</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="box">
+                <div class="our-services database">
+                    <div class="icon"> <img src="img/iconFeature/FAQ.png" width="90px"> </div>
+                    <h4>FAQ</h4>
+                    <p>Menjelaskan hal hal yang masih kurang jelas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--TESTIMONIAL-->
+<div class="container testi-container" style="margin-bottom: 100px;">
+	<div class="row">
+		<div class="col">
+			<div id="carouselExampleIndicators" class="testi-carousel carousel slide" data-ride="carousel">
+				<div class="section-title">
+					<center><h2 style="margin-bottom: 25px;text-transform: uppercase;"><strong>Apa pendapat mereka tentang jurusan elektro POLTEKBA?</strong></h2></center>
+					</div>
+			<div class="carousel-inner">
+			<div class="item carousel-item active">
+            <div class="img-box"><img src="img/Testi/gambar1.jpeg" alt=""></div>
+            <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+            <p class="overview"><b>Muhammad Luthfie Saryono</b><br>CEO Lutherno</p>
+            <div class="star-rating"> </div>
+        </div>
+			<div class="item carousel-item">
+            <div class="img-box"><img src="img/Testi/gambar2.jpg" alt=""></div>
+            <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
+            <p class="overview"><b>Isneny Wahyu Sukmawati</b><br>Electrical Engineering BUMA</p>
+            <div class="star-rating"> </div>
+        </div>
+			<div class="item carousel-item">
+            <div class="img-box"><img src="img/Testi/gambar3.jpeg" alt=""></div>
+            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+            <p class="overview"><b>Sophie Putri</b><br>Media Analyst</p>
+            <div class="star-rating"> </div>
+        </div>
+			</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: red;"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true" style="background-color: red;"></span>
+					<span class="sr-only">Next</span>
+				</a>
+	</div>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+</div>
+
+<!--Gambar bawah-->
+	<div class="container">		
+		<div class="gambarbawah">
+			<img src="img/poltek1.png" width = "350px">
+		</div>
+			<img src="img/bawah.png" id="gambarbawah1">
+	</div>
+		<script type="text/javascript" src="jquery.js"></script> <!--File javascript jquery-->
+		<script type="text/javascript" src="popper.js"></script> <!--File javascript popper-->
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script> <!--File javascript bootstrap-->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-3">
+				<ul>
+					<h5 class="jdl">JURUSAN POLTEKBA</h5>
+						<li><a href="#">Teknik Elektro</a></li>
+						<li><a href="#">Teknik Sipil</a></li>
+						<li><a href="#">Teknik Mesin</a></li>
+						<li><a href="#">Perhotelan</a></li>
+						<li><a href="#">Akutansi</a></li>
+					<br>
+
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<h5 class="jdl">PROGRAM STUDI</h5>
+						<li><a href="#">Teknik Elektronika</a></li>
+						<li><a href="#">Teknologi Listrik</a></li>
+						<li><a href="#">Alat Berat</a></li>
+						<li><a href="#">Teknik Sipil</a></li>
+						<li><a href="#">TRKJJ</a></li>
+						<li><a href="#">Tataboga</a></li>
+						<li><a href="#">Divisi Kamar</a></li>
+						<li><a href="#">PK</a></li>
+						<li><a href="#">Akutansi Perpajakan</a></li>
+						<li><a href="#">Akutansi Manajerial</a></li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<h5 class="jdl">UNIT</h5>
+						<li><a href="#">Subbagian AK</a></li>
+						<li><a href="#">Subbagian PKS</a></li>
+						<li><a href="#">Subbagian Umum</a></li>
+						<li><a href="#">Subbagian Keuangan dan Kepegawaian</a></li>
+						<li><a href="#">UPT Perpustakaan</a></li>
+						<li><a href="#">UPT Bahasa</a></li>
+						<li><a href="#">UPT Sistem Informasi</a></li>
+						<li><a href="#">UPT Bimbingan dan Konseling/Career</a></li>
+						<li><a href="#">P4MP</a></li>
+						<li><a href="#">P3M</a></li>	
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<h5 class="jdl">Informasi</h5>
+						<li><a href="#">Penerimaan Mahasiswa Baru</a></li>
+						<li><a href="#">SI Kepegawaian</a></li>
+						<li><a href="#">SI Akademik</a></li>
+						<li><a href="#">SI PMB</a></li>
+						<li><a href="#">SI Alumni</a></li>
+						<li><a href="#">Portal E-Jurnal</a></li>
+						<li><a href="#">BLP POLTEKBA</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>&copy; POLITEKNIK NEGERI BALIKPAPAN &copy;</p>
+	</div>
+</footer>
+</html>

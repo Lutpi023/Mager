@@ -1,0 +1,120 @@
+/*Navbar*/
+    .navbar-custom { /*ngubah baackground navbar jadi emas*/
+        background-color: gold;
+    }
+        .navbar-custom .navbar-nav .nav-link { /* Mengubah warna text di navbar*/
+            color: black;
+            padding: 1.3rem 1rem; /*1 rem = 16px*/
+        }
+
+    .navbar-custom .dropdown-menu { /* Mengubah warna menu dropdown */
+        margin-top: 0px;
+        background-color: #183b67;
+        border-radius: 0px;
+        border: none;
+    }
+    .about{ /*Biar gak melenceng kotak dropdown nya */
+        margin-left: -48px;
+    }
+    .about .dropdown-item:hover{ /*Biar pas di arahin ada background warnanya*/
+    background-color: white;
+    color: black !important;
+    }
+    .kotak-hover:hover > .dropdown .dropdown-menu{ /*Biar pas cursor di arahin langsung keluar tu kotaknya */
+        display: block;
+        background-color: #183b67;
+    }
+    .judul-dropdown{ /*Mengatur judul dropdown dropdown di navbar*/
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .judul-dropdown span{ /*Buat ngasih garis bawah di beberapa tulisan */
+        border-bottom: 3px solid gold;
+    }
+    .link-dropdown{ /*Ngatur font & margin isi navbar */
+        margin: 4px 0; /*yang 4 ngatur atas bawah, yang 0 kiri kanan*/
+        font-size: 14px;
+    }
+    .link-dropdown:hover{ /*Ngatur biar pas cursor di arahin ke isi navbar jadi agak maju2 */
+        margin-left: 5px;
+    }
+    .agenda p{ /*Buat agenda */
+        border: 8px solid gold;
+        background-color: gold !important; /*Fungsi important untuk memprioritaskan warnanya*/
+        color: black !important;
+    }
+    .kotak-hover:hover, .kotak-hover:hover > li a{
+        color: white !important;
+        background-color: #183b67; /*Biar warnanya nyatu sama background */
+    }
+    .navbar-custom li p{ /* Biar rapi */
+    margin: 0;
+    padding: 0;
+    }
+    .galeri img { /* Efek zoom di bagian Berita */
+    margin-top: 5px;
+    width: 100%;
+    }
+    .zoom-effect:hover .galeri img {
+    transform: scale(1.08);
+    transition: 0.4s ease;
+    }
+
+
+/*Isi*/
+    .judul{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        letter-spacing: 5px;
+    }
+    .isi img{ /*Ngatur besar logo elektro */
+        margin-bottom: 10px;
+        width: 250px;
+    }
+    .content{
+        z-index: -1;
+        background-color: white !important;
+    }
+    .gambarbawah{
+        border-top: 4px solid black;
+    }
+    #gambarbawah1{
+        width: 750px;
+        position: relative;
+        z-index: -1;
+        margin-left: 43.1%;
+        margin-top: -510px;
+        margin-bottom: -60px;
+    }
+
+/*Footer*/
+    .jdl{
+        color: gold;
+        font-weight: bold;
+    }
+    footer{
+        margin-top: 20px;
+        border-top: 10px solid gold;
+        color: white;
+        background-color: #183b67;
+    }
+    footer a, footer a:hover{
+        color: inherit;
+        margin-bottom: 1px;
+    }
+    footer .container{
+       margin-top: 20px;
+    }
+    .list-kanan li, footer li{ /*Biar gada titik di kanannya */
+        list-style: none;
+    }
+    .copyright{
+        background-color: black;
+    }
+    .copyright p{
+        text-align: center;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-bottom: 0px;
+    }

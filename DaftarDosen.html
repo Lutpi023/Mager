@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>POLITEKNIK NEGERI BALIKPAPAN</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"> <!--File CSS Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="DaftarDosen.css"> <!--File CSS-->
+	<link rel="stylesheet" type="text/css" href="yamm/yamm.css"> <!--File YAMM untuk membuat navbar ukuran penuh -->
+	<link rel="icon" type="img/png" href="img/logoelektro.png">
+</head>
+<body>
+	<!-- Untuk membuat navbar -->
+	<nav class="yamm navbar navbar-expand-lg navbar-custom navbar-light py-0">
+		<!-- Untuk membuat tombol yang muncul ketika di layar kecil (responsif) -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<!-- Menu yang ada di Navbar -->
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<div class="kotak-hover">
+					<li class="nav-item mr-5 ml-5">
+						<a href="index.html" class="nav-link">HOME</a>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item dropdown mr-5 ml-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+						<div class="dropdown-menu about" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="TentangElektro.html">Tentang Jurusan Elektro</a>
+					        <a class="dropdown-item" href="VisiMisi.html">Visi Misi</a>
+					        <a class="dropdown-item" href="Struktur.html">Struktur Organisasi</a>
+					        <a class="dropdown-item" href="Kaldik.html">Kalender Akademik</a>
+					        <a class="dropdown-item" href="Fasilitas.html">Fasilitas</a>
+					        <a class="dropdown-item" href="DaftarDosen.html">Dosen Elektro</a>
+						</div>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item dropdown yamm-fw mr-5 ml-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BERITA</a>
+						<div class="dropdown-menu">
+							<div class="yamm-content pl-0">
+								<div class="row">
+									<div class="col-md-4" style="margin-right: 50px">
+										<a href="#" class="dropdown-item judul-dropdown"><span>BERI</span>TA TERBARU</a>
+										<a href="#" class="dropdown-item link-dropdown">PENYALURAN BANTUAN PEMERINTAH TANGGAP BENCANA<p>BIDANG PENDIDIKAN VOKASI TAHUN 2020 OLEH P3M POLTEKBA</p></a>
+										<a href="#" class="dropdown-item link-dropdown">EXPO TEKNIK ELEKTRONIKA TAHUN 2020</a>
+										<a href="#" class="dropdown-item link-dropdown">REKRUTMEN PEKERJA WAKTU TIDAK TERTENTU (PWTT)<p>PT KILANG PERTAMINA BALIKPAPAN</p></a>
+										<a href="#" class="dropdown-item link-dropdown">POLTEKBA VIRTUAL JOB FAIR 2020</a>
+										<a href="#" class="dropdown-item link-dropdown">PELAKSANAAN SNITT KE-3 POLTEKBA TAHUN 2020 SUKSES<p>DIGELAR SECARA DARING</p></a>
+									</div>
+									<div class="col-md-5">
+										<a href="#" class="dropdown-item judul-dropdown"><span>AGEN</span>DA</a>
+										<a href="#" class="dropdown-item agenda disabled"><p>No Agenda</p></a>
+									</div>
+									<div class="col-md-3" style="margin-left: -50px">
+										<a href="#" class="dropdown-item judul-dropdown"><span>GALE</span>RI FOTO</a>
+										<div class="zoom-effect">
+											<div class="galeri">
+												<a href="#" class="dropdown-item"><img src="img/gambar2.jpg"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item dropdown yamm-fw mr-5 ml-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">AKADEMIK</a>
+						<div class="dropdown-menu">
+							<div class="yamm-content pl-0">
+								<div class="row">
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>JURUSAN</span> POLTEKBA</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Elektro</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Sipil</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Mesin</a>
+										<a href="#" class="dropdown-item link-dropdown">Perhotelan</a>
+										<a href="#" class="dropdown-item link-dropdown">Akutansi</a>
+									</div>
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>DIPL</span>OMA III</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Elektronika</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknikologi Listrik</a>
+										<a href="#" class="dropdown-item link-dropdown">Alat Berat</a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Sipil</a>
+										<a href="#" class="dropdown-item link-dropdown">Tataboga</a>
+										<a href="#" class="dropdown-item link-dropdown">Divisi Kamar</a>
+										<a href="#" class="dropdown-item link-dropdown">Perbankan & Keuangan</a>
+									</div>
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>DIPL</span>OMA IV</a>
+										<a href="#" class="dropdown-item link-dropdown"><p>Teknologi Rekayasa</p><p>Konstruksi Jalan &</p><p>Jembatan</p></a>
+										<a href="#" class="dropdown-item link-dropdown">Akutansi Perpajakan</a>
+										<a href="#" class="dropdown-item link-dropdown">Akutansi Manajerial</a>
+									</div>
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>KELAS</span> KERJASAMA MSU</a>
+										<a href="#" class="dropdown-item link-dropdown">Alat Berat (Mechanical<p>Engineering)</p></a>
+										<a href="#" class="dropdown-item link-dropdown">Teknik Elektronika (Electrical<p>& Electronics Engineering)</p></a>
+									</div>
+									<div class="col-md-2">
+										<a href="#" class="dropdown-item judul-dropdown"><span>JALU</span>R PENERIMAAN</a>
+										<a href="#" class="dropdown-item link-dropdown">SNMPN</a>
+										<a href="#" class="dropdown-item link-dropdown">SBMPN</a>
+										<a href="#" class="dropdown-item link-dropdown">UMM</a>
+									</div>
+									<div class="col-md-2" style="margin-left: -20px">
+										<a href="#" class="dropdown-item judul-dropdown"><span>INFO</span>RMASI PENDAFTARAN</a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Politeknik Negeri Balikpapan</a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Jl. Soekarno Hatta KM.8<p>Balikpapan Utara</p></a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Kalimantan Timur 76129,<p>INDONESIA</p></a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Telp: (0542)860895 | Fax: 861107</a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Email: admin@poltekba.ac.id</a>
+										<a href="#" class="dropdown-item link-dropdown disabled">Website: http://poltekba.ac.id</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item mr-5 ml-5">
+						<a href="#" class="nav-link">LAYANAN</a>
+					</li>
+				</div>
+				<div class="kotak-hover">
+					<li class="nav-item dropdown yamm-fw mr-5 ml-5">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">KONTAK</a>
+						<div class="dropdown-menu">
+							<div class="yamm-content">
+								<div class="row">
+										<div class="col-md-4">
+											<a href="#" class="dropdown-item judul-dropdown"><span>CARI</span> SESUATU</a>
+											<div class="input-group" style="margin-left: 23px; margin-top: 8px">
+										    <input type="text" class="form-control" placeholder="Search...">
+										    <div class="input-group-append">
+										      <button class="btn btn-secondary" type="button">
+										      	Search
+										      </button>
+										    </div>
+										  </div>
+										</div>
+										<div class="col-md-2">
+											<a href="#" class="dropdown-item judul-dropdown"><span>PILIH</span> BAHASA</a>
+											<a href="#" class="dropdown-item link-dropdown"><img src="img/icon/en.png" style="margin-right: 10px">English</a>
+											<a href="#" class="dropdown-item link-dropdown"><img src="img/icon/id.png" style="margin-right: 10px">Indonesian</a>
+										</div>
+										<div class="col-md-2">
+											<a href="#" class="dropdown-item judul-dropdown"><span>TEMU</span>KAN KAMI</a>
+											<a href="#" class="dropdown-item link-dropdown">FACEBOOK</a>
+											<a href="#" class="dropdown-item link-dropdown">TWITTER</a>
+											<a href="#" class="dropdown-item link-dropdown">YOUTUBE</a>
+											<a href="#" class="dropdown-item link-dropdown">INSTAGRAM</a>
+											<div class="dropdown-divider" style="margin-left: 24px"></div>
+											<a href="http://blp.poltekba.ac.id/" class="dropdown-item link-dropdown">LAMAN LAMA</a>
+										</div>
+										<div class="col-md-3">
+											<a href="#" class="dropdown-item judul-dropdown"><span>KON</span>TAK</a>
+											<a href="#" class="dropdown-item link-dropdown disabled"><img src="img/icon/icon1map.png"> Jl. Soekarno Hatta KM.8 Balikpapan Utara</a>
+											<a href="#" class="dropdown-item link-dropdown disabled">Kalimantan Timur 76129, INDONESIA</a>
+											<a href="#" class="dropdown-item link-dropdown disabled"><img src="img/icon/icon2mail.png"> admin@poltekba.ac.id</a>
+											<a href="#" class="dropdown-item link-dropdown disabled"><img src="img/icon/icon4phone.png"> (0542)860895 | <img src="img/icon/icon5fax.png"> 861107</a>
+											<a href="#" class="dropdown-item link-dropdown disabled"><img src="img/icon/icon3wa.png"> +62 8135 0242 704</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</div>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- ISI -->
+<!-- KONTEN -->
+	<div class="container">
+		<div class="judul">
+			<h1>DAFTAR DOSEN JURUSAN ELEKTRO</h1>
+		</div>
+		<div class="content">
+			<div class="isi">
+					<center><table border="1" cellpadding="10" style="text-align: center"></center>
+						<tbody>
+							<tr>
+								<th>GAMBAR</th>
+								<th>NAMA</th>
+								<th>NIP</th>
+								<th>JABATAN</th>
+								<th>E-MAIL</th>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/armin.jpg"></td>
+								<td>Drs.Armin,M.T</td>
+								<td>196408211988031006</td>
+								<td>Ketua Jurusan Teknik Elektro</td>
+								<td>armin@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/yanti.jpg"></td>
+								<td>Nur Yanti,S.T.,M.t</td>
+								<td>197611292007012020</td>
+								<td>Sekretaris Jurusan Teknik Elektro</td>
+								<td>nur.yanti@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/nurwahidah.jpg"></td>
+								<td>Nurwahidah Jamal,S.T.,M.t</td>
+								<td>196905222007012024</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>nurwahidah.jamal@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/irta.jpg"></td>
+								<td>Andri Sri Irtawaty,S.T.,M.Eng</td>
+								<td>2010.90.009</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>andi.sri@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/angga_wahyu.jpg"></td>
+								<td>Angga Wahyu Aditya,S.ST.,M.T</td>
+								<td>199411012019031015</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>angga.wahyu@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/suhedi.jpg"></td>
+								<td>Drs.Suhaedi,M.T</td>
+								<td>196101211985031011</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>suhaedi@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/erick.jpeg"></td>
+								<td>Erick Sorongan,S.T.,M.Eng</td>
+								<td>198904222019031012</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>erick.sorongan@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/fatur.jpg"></td>
+								<td>Fathur Zaini Rachman,S.T.,M.T</td>
+								<td>198508282014041002</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>fatur.zaini@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/hadiyanto.jpg"></td>
+								<td>Hadiyanto,S.T.,M.Eng</td>
+								<td>198007082014041001</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>hadiyanto@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/hilman.jpg"></td>
+								<td>Hilmansyah,S.T.,M.T</td>
+								<td>197608202010011013</td>
+								<td>Dosen Jurusan Teknik Elektro </td>
+								<td>hilmansyah@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/ihsan.jpg"></td>
+								<td>Ihsan,S.Kom.,M.T</td>
+								<td>199008272019031011</td>
+								<td>Kepala Laboratorium</td>
+								<td>ihsan@poltekba.ac.id</td>
+							</tr>
+								<td><img src="img/dosen/maria.jpg"></td>
+								<td>Maria Ulfah,S.Kom.,M.T</td>
+								<td>198107182014042001</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>maria.ulfah@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/mikail.jpg"></td>
+								<td>Mikail Eko Prasetyo Widagda,S.T.,M.T</td>
+								<td>2011.90.018</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>mikail.eko@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/qory.jpg"></td>
+								<td>Qory Hidayati,S.T.,M.T</td>
+								<td>198611142019032014</td>
+								<td>Kepala Program Studi Teknik Elektronika</td>
+								<td>qory.hidayati@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/dwi.jpg"></td>
+								<td>Dwi Lesmideryati,S.T.,M.Kom</td>
+								<td>198605032019032011</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>dwi.lesmideyati@poltekba.ac.id</td>
+
+							</tr>
+							<tr>
+								<td><img src="img/dosen/danar.jpg"></td>
+								<td>Danar Retno Sari,S.Kom.,M.Kom</td>
+								<td>199210152019032020</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>danar.retno@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/riklan.jpeg"></td>
+								<td>Riklan kango,S.T.,M.T</td>
+								<td>199008192019031018</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>riklan.kango@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/istia.jpg"></td>
+								<td>Istia Budi,S.T.,M.M</td>
+								<td>-</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>istia.budi@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/restu.jpg"></td>
+								<td>Restu Mukti Utomo,S.T.,M.T</td>
+								<td>-</td>
+								<td>Dosen Jurusan Teknik Elektro</td>
+								<td>restu.mukti@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/steven.jpg"></td>
+								<td>Steven Daniel Kussoy,A.Md</td>
+								<td>199010242014041001</td>
+								<td>Pranata Laboratorium Pendidikan Jurusan Teknik Elektro</td>
+								<td>steven.daniel@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/julyar.jpg"></td>
+								<td>Julyar Prasetyo,S.T.</td>
+								<td>2016.90.008</td>
+								<td>Teknisi Laboratorium Jurusan Teknik Elektro</td>
+								<td>julyar.prasetyo@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/widodo.jpg"></td>
+								<td>Slamet Widodo,A.Md.T</td>
+								<td>198912282019031017</td>
+								<td>Teknisi Laboratorium Jurusan Teknik Elektro</td>
+								<td>slamet.widodo@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/erna.jpg"></td>
+								<td>Erna Ningsih, S.I.Kom</td>
+								<td>2012.90.004</td>
+								<td>Admin Jurusan Teknik Elektro</td>
+								<td>erna.ningsih@poltekba.ac.id</td>
+							</tr>
+							<tr>
+								<td><img src="img/dosen/desi.jpg"></td>
+								<td>Dessy Nur Ariyanti,A.Md</td>
+								<td>2015.90.011</td>
+								<td>Admin Jurusan Teknik Elektro</td>
+								<td>dessy.nur@poltekba.ac.id</td>
+							</tr>
+						</tbody>
+					</table>
+					<br>					
+			</div>
+		</div>
+		<div class="gambarbawah">
+			<img src="img/poltek1.png" width = "350px">
+		</div>
+			<img src="img/bawah.png" id="gambarbawah1">
+	</div>
+		<script type="text/javascript" src="jquery.js"></script> <!--File javascript jquery-->
+		<script type="text/javascript" src="popper.js"></script> <!--File javascript popper-->
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script> <!--File javascript bootstrap-->
+</body>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-3">
+				<ul>
+					<h5 class="jdl">JURUSAN POLTEKBA</h5>
+					<li><a href="#">Teknik Elektro</a></li>
+					<li><a href="#">Teknik Sipil</a></li>
+					<li><a href="#">Teknik Mesin</a></li>
+					<li><a href="#">Perhotelan</a></li>
+					<li><a href="#">Akutansi</a></li>
+					<br>
+
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<h5 class="jdl">PROGRAM STUDI</h5>
+					<li><a href="#">Teknik Elektronika</a></li>
+					<li><a href="#">Teknologi Listrik</a></li>
+					<li><a href="#">Alat Berat</a></li>
+					<li><a href="#">Teknik Sipil</a></li>
+					<li><a href="#">TRKJJ</a></li>
+					<li><a href="#">Tataboga</a></li>
+					<li><a href="#">Divisi Kamar</a></li>
+					<li><a href="#">PK</a></li>
+					<li><a href="#">Akutansi Perpajakan</a></li>
+					<li><a href="#">Akutansi Manajerial</a></li>
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<h5 class="jdl">UNIT</h5>
+					<li><a href="#">Subbagian AK</a></li>
+					<li><a href="#">Subbagian PKS</a></li>
+					<li><a href="#">Subbagian Umum</a></li>
+					<li><a href="#">Subbagian Keuangan dan Kepegawaian</a></li>
+					<li><a href="#">UPT Perpustakaan</a></li>
+					<li><a href="#">UPT Bahasa</a></li>
+					<li><a href="#">UPT Sistem Informasi</a></li>
+					<li><a href="#">UPT Bimbingan dan Konseling/Career</a></li>
+					<li><a href="#">P4MP</a></li>
+					<li><a href="#">P3M</a></li>	
+				</ul>
+			</div>
+			<div class="col-3">
+				<ul>
+					<h5 class="jdl">Informasi</h5>
+					<li><a href="#">Penerimaan Mahasiswa Baru</a></li>
+					<li><a href="#">SI Kepegawaian</a></li>
+					<li><a href="#">SI Akademik</a></li>
+					<li><a href="#">SI PMB</a></li>
+					<li><a href="#">SI Alumni</a></li>
+					<li><a href="#">Portal E-Jurnal</a></li>
+					<li><a href="#">BLP POLTEKBA</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>&copy; POLITEKNIK NEGERI BALIKPAPAN &copy;</p>
+	</div>
+</footer>
+</html>
